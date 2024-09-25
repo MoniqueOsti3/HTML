@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resenhas de Filmes e Séries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .video {
+            margin: 20px 0;
+            text-align: center;
+        }
+        iframe {
+            width: 560px;
+            height: 315px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resenhas de Filmes e Séries</h1>
+
+    <div class="video">
+        <h2>Resenha de "O Senhor dos Anéis"</h2>
+        <iframe src="https://www.youtube.com/embed/7l5O2EmYg5E" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="video">
+        <h2>Resenha de "Stranger Things"</h2>
+        <iframe src="https://www.youtube.com/embed/8svdCLiz3Vg" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="video">
+        <h2>Resenha de "A Casa de Papel"</h2>
+        <iframe src="https://www.youtube.com/embed/ZH1RAU1D7cE" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
+
